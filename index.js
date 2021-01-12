@@ -21,6 +21,8 @@ function iLoveTheBeatles(number) {
   let i = 0;
   var array = [];
   function iLoveTheBeatles() {
+    number = number + 1;
+    return number;
     array.push(`"I love the Beatles!"`);
   }
   do {
